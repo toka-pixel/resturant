@@ -1,0 +1,256 @@
+<body>
+
+    <head>
+        <title>
+            home
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+
+    <div class="navbar-left">
+
+        <span class="logo">
+            <i class="fas fa-mug-hot"></i>
+        </span>
+        <div class="navbar-top">
+            <h2 class="h2">easy times</h2>
+            <h3 class="h3">cafe & resturant</h3>
+        </div>
+
+        <div class="divider"></div>
+        <span class="list-mob" onclick="openmenu()">
+            <i class="fa fa-bars"></i>
+        </span>
+        <br>
+        <div class="nav-menu" id="mylinks">
+            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="about-us.html">about us</a>
+            <a class="nav-link" href="menu.html">menu</a>
+            <a class="nav-link" href="contact-us.html">contact us</a>
+            <a class="nav-link" href="reservation.html">reservation</a>
+        </div>
+        <div class="divider"></div>
+        <div class="nav-social">
+
+        </div>
+
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/3.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <p>cafe & resturant</p>
+                    <h2>CAPPUCCINO</h2>
+                    <h3>THE BEST COFFEE IN LONDON</h3>
+                    <a class="more" href="about-us.html">more about us</a>
+                    <a class="reserve-table" href="reservation.html">reserve a table</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/4.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <p>cafe & resturant</p>
+                    <h2>WELCOME!</h2>
+                    <h3>CHEF'S SPECIAL, EVERY FRIDAY</h3>
+                    <a class="more" href="about-us.html">more about us</a>
+                    <a class="reserve-table" href="reservation.html">reserve a table</a>
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/5.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                    <p>cafe & resturant</p>
+                    <h2>DINER FOR 2</h2>
+                    <h3>CHEF'S SPECIAL, EVERY FRIDAY</h3>
+                    <a class="more" href="about-us.html">more about us</a>
+                    <a class="reserve-table" href="reservation.html">reserve a table</a>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            <span class="sr-only">Previous</span>
+        </a>
+
+
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="aboutus-section text-center" id="aboutus">
+        <div class="container">
+            <p>welcome</p>
+            <h2>ABOUT US</h2>
+            <h3>CAFE & RESTAURANT</h3>
+            <div class="divider"></div>
+            <div class="para">
+                EASY TIMES one of today’s most renowned fast food restaurants, was established in 2013, as a quiet place
+                where anyone could eat a burger or have a pizza that they loved. Our dedication to customers and quality
+                food helps us to reach more today.
+            </div>
+        </div>
+    </div>
+    <div class="know-section text-center">
+        <div class="container">
+            <h2>did you know?</h2>
+            <p>about our resturant:</p>
+            <div class="row">
+                <div class="m col-lg-3 col-sm-6">
+                    <span><i class="fas fa-mug-hot"></i></span>
+                    <div class="p1">
+                        famous for<br>our coffe
+                    </div>
+                </div>
+                <div class="m col-lg-3 col-sm-6">
+                    <span><i class="fas fa-mobile"></i></span>
+                    <div class="p1">
+                        PHONE<br>
+                        RESERVATIONS
+                    </div>
+                </div>
+                <div class="m col-lg-3 col-sm-6">
+                    <span><i class="far fa-clock"></i></span>
+                    <div class="p1">
+                        OPEN EVERYDAY<br>
+                        08:00 - 01:00
+                    </div>
+                </div>
+                <div class="m col-lg-3 col-sm-6">
+                    <span><i class="fas fa-thumbtack"></i></span>
+                    <div class="p1">
+                        LOCATED IN<br>
+                        CITY CENTER
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ourmenu-section ">
+        <div class="container">
+            <h2>our menu</h2>
+            <p>THESE ARE OUR SPECIALS:</p>
+
+
+            <div class="menu-tabs">
+                <a class="tab-link" onclick="openCity(event, 'coffee')">COFFEE</a>
+                <a class="tab-link" onclick="openCity(event, 'lunch')">LUNCH</a>
+                <a class="tab-link" onclick="openCity(event, 'specials')">EVERY DAY SPECIALS</a>
+            </div>
+
+
+            <!-- tab content -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="coffee" class="tab-content">
+                        <div class="title">Caramel Macchiato</div>
+                        <div class="description">vanilla milk mixed with smoky espresso, with
+                            buttery caramel sauce</div>
+                        <div class="price">66.0</div>
+
+                        <div class="title">Caffé Americano</div>
+                        <div class="description">coffee,boiling water,milk and a raw sugar cube</div>
+                        <div class="price">96.0</div>
+                    </div>
+
+                    <div id="lunch" class="tab-content">
+                        <div class="title">Mexican Burger</div>
+                        <div class="description">Beef / Garlic / Coriander / Cheese / Onion</div>
+                        <div class="price">35.0</div>
+
+                        <div class="title">Chicken Burger</div>
+                        <div class="description">White chicken meat / Breadcrumbs / Onions / Peppers</div>
+                        <div class="price">35.0</div>
+                    </div>
+
+                    <div id="specials" class="tab-content">
+                        <div class="title">Chicken Pesto</div>
+                        <div class="description">All-natural chicken / Tomatoes / Arugula / Baguette</div>
+                        <div class="price">35.0</div>
+
+                        <br>
+                        <div class="title">Sparkling Water</div>
+                        <div class="description">Perrier / San Pellegrino / Schweppes</div>
+                        <div class="price">35.0</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="testeful">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <div class="title1">Original</div>
+                    <h2>TASTEFUL</h2>
+                    <div class="title2">CAFE & RESTAURANT</div>
+                    <div class="divider"></div>
+                    <p>We use only the best ingredients to cook the tasty fresh food for you.
+                        Our staff consists of chefs and cooks with years of experience.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div style="float: left;">
+                        <img src="images/2.jpg" onclick="openimg(this);" class="test-img">
+                    </div>
+                    <div class=" img2 " style="float: right;">
+                        <img src="images/6.jpg" onclick="openimg(this);" class="test-img">
+                    </div>
+                    <br>
+                    <div style="float: left;">
+                        <img src="images/5.jpg" onclick="openimg(this);" class="test-img">
+                    </div>
+                    <div class=" img2" style="float: right;">
+                        <img src="images/4.jpg" onclick="openimg(this);" class="test-img">
+                    </div>
+                </div>
+
+
+                <div class="img-content">
+                    <span onclick="this.parentElement.style.display='none'">&times;</span>
+                    <img id="expandedimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-center">
+        <div class="scroll-top">
+            <span><i class="fas fa-angle-up"></i></span>
+        </div>
+        <div class="content">
+            EASY TIME BY TOKA
+        </div>
+        <div class="social">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-google-plus-square"></i></span>
+            <span><i class="fas fa-share-alt-square"></i></span>
+
+        </div>
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>

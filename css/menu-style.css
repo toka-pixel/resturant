@@ -1,0 +1,398 @@
+
+/* start  menu page */
+.menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0.29)),url(../images/3.jpg) no-repeat top center ;
+    background-position: 50% 100%;
+     background-size: cover;
+     text-align: center;
+     padding-top: 145px;
+    padding-bottom: 145px;
+    position: relative;
+  }
+  .menu h2{
+    margin-top: 0px;
+    font-family: Oswald, sans-serif;
+    font-size: 62px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: white;
+   }
+   .menu h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #eda03b;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: 400;
+   }
+
+/* end menu page */
+/* start parts menu */
+.parts-menu{
+    position: absolute;
+    bottom: -16px;
+    left: 6%;
+}
+
+.parts-menu ul{
+    list-style: none;
+    display: flex;  
+}
+.parts-menu ul a {
+  /* width: 114px; */
+  background-color: rgba(0,0,0,0.4);
+  height: 70px;
+  padding:27px;
+  transition: all 0.5s ease;
+    color: #fff;
+}
+
+.parts-menu ul li {
+    display: flex;
+}
+.parts-menu ul li .icon {
+    font-size: 35px;
+}
+.parts-menu ul li .head {
+    margin-left: -36px;
+    margin-bottom: 0px;
+    font-family: Oswald, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.parts-menu ul li span{
+    margin-left: 13px;
+    opacity: 0.49;
+    color: #fff;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.parts-menu a:hover{
+    text-decoration: none;
+    background-color: rgba(61, 56, 51, 0.9);
+}
+.parts-menu a.active{
+    background-color: #eda03b;
+}
+/* 1281px */
+
+
+/* end parts menu */
+
+/* start menu content */
+.menu-contents{
+    padding:100px 0px;
+    background-color: #faf3eb;
+}
+.menucontent{
+    animation:  zoom 0.6s;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+@keyframes zoom{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+ .title{
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+ .description{
+    font-size: 15px;
+    opacity: 0.7;
+   
+  }
+ .price{
+    /* position: absolute;
+    right:40px;
+    margin-top: -20px; */
+    float: right;
+    background-color:  #e88f2a;
+    color: white;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    padding-right: 9px;
+    padding-left: 9px;
+    clear: both;
+  }
+  @media (max-width:767px){
+    .col-xs-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+   .description{
+       font-size: 13px;
+   }
+}
+@media (max-width:823px){
+   
+   .description{
+       font-size: 13px;
+   }
+}
+
+
+/* end menu content */
+
+/*  start free  delivery */
+.free-delivery{
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pizza.png) no-repeat top center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+
+}
+.free-delivery h4{
+    color: #fff;
+    font-style: italic;
+    line-height: 1.02778;
+    font-size: 36px;
+}
+.free-delivery h4::before , .free-delivery h4::after{
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #f9b129;
+    width: 44px;
+    margin: 10px 7px;
+}
+.free-delivery .label-price{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.free-delivery h2{
+    letter-spacing: 0.05em;
+    font-style: italic;
+    color: #fff;
+    line-height: 1;
+    font-size: 70px;
+}
+.free-delivery h1{
+    color: #f9b129;
+    font-size: 95px;
+    font-family: "Changa One", cursive;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.free-delivery h1:before {
+    content: "$";
+    display: inline-block;
+    font-size: 36px;
+    vertical-align: super;
+}
+.free-delivery h1 sup {
+   margin-left: -30px;
+}
+.free-delivery .components{
+    display: inline-block;
+    margin-left: -30px;
+}
+.free-delivery ul{
+    list-style: none;
+    color: white;
+    text-align: start;
+    font-size: 22px;
+}
+.free-delivery a{
+  
+    color: #fff;
+    border-radius: 35px;
+    padding: 13.5px 65px;
+    background-color: #1c1a17;
+    font-size: 16px;
+    transition: .3s ease-out;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    font-weight: 700;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.free-delivery a:hover{
+    background-color: #f9b129;
+}
+
+/*  end free  delivery */
+
+/* responsive */
+@media(max-width:513px){
+    .parts-menu ul{
+      width: 485px;
+      display: grid;
+          }
+          .parts-menu {
+             
+              bottom: -158px;
+              left: -4%;
+          }
+          .parts-menu ul a {
+              padding: 20px;
+          }
+          .parts-menu ul li .icon {
+              font-size: 30px;
+          }
+          .parts-menu ul li .head {
+              font-size: 15px;
+             
+          }
+          .parts-menu ul li span {
+              font-size: 11px; 
+          }
+          .menu-contents {
+              padding: 142px 0px;
+          }
+  }
+@media (min-width:513px) and (max-width:767px){
+    .parts-menu ul{
+        width: 485px;
+        display: grid;
+            }
+            .parts-menu {
+               
+                bottom: -158px;
+                left: 8%;
+            }
+            .parts-menu ul a {
+                padding: 20px;
+            }
+            .parts-menu ul li .icon {
+                font-size: 30px;
+            }
+            .parts-menu ul li .head {
+                font-size: 15px;
+               
+            }
+            .parts-menu ul li span {
+                font-size: 11px; 
+            }
+            .menu-contents {
+                padding: 142px 0px;
+            }
+}  
+
+@media (min-width:768px) and (max-width:800px){
+    .parts-menu ul{
+        width: 485px;
+        display: grid;
+            }
+            .parts-menu {
+               
+                bottom: -158px;
+                left: -5%;
+            }
+            .parts-menu ul a {
+                padding: 20px;
+            }
+            .parts-menu ul li .icon {
+                font-size: 30px;
+            }
+            .parts-menu ul li .head {
+                font-size: 15px;
+               
+            }
+            .parts-menu ul li span {
+                font-size: 11px; 
+            }
+            .menu-contents {
+                padding: 142px 0px;
+            }
+}  
+@media (min-width:800px) and (max-width:900px){
+    .parts-menu ul{
+        width: 485px;
+        display: grid;
+            }
+            .parts-menu {
+               
+                bottom: -158px;
+                left: 5%;
+            }
+            .parts-menu ul a {
+                padding: 20px;
+            }
+            .parts-menu ul li .icon {
+                font-size: 30px;
+            }
+            .parts-menu ul li .head {
+                font-size: 15px;
+               
+            }
+            .parts-menu ul li span {
+                font-size: 11px; 
+            }
+            .menu-contents {
+                padding: 142px 0px;
+            }
+}  
+@media (min-width:901px) and (max-width:1000px){
+    .parts-menu ul{
+        width: 485px;
+        display: grid;
+            }
+            .parts-menu {
+               
+                bottom: -158px;
+                left: 11%;
+            }
+            .parts-menu ul a {
+                padding: 20px;
+            }
+            .parts-menu ul li .icon {
+                font-size: 30px;
+            }
+            .parts-menu ul li .head {
+                font-size: 15px;
+               
+            }
+            .parts-menu ul li span {
+                font-size: 11px; 
+            }
+            .menu-contents {
+                padding: 142px 0px;
+            }
+}  
+
+@media (min-width:1001px) and (max-width:1353px){
+    .parts-menu ul{
+        width: 485px;
+        display: grid;
+            }
+            .parts-menu {
+               
+                bottom: -158px;
+                left: 25%;
+            }
+            .parts-menu ul a {
+                padding: 20px;
+            }
+            .parts-menu ul li .icon {
+                font-size: 30px;
+            }
+            .parts-menu ul li .head {
+                font-size: 15px;
+               
+            }
+            .parts-menu ul li span {
+                font-size: 11px; 
+            }
+            .menu-contents {
+                padding: 142px 0px;
+            }
+} 

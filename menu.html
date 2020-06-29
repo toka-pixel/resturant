@@ -1,0 +1,245 @@
+<body>
+
+    <head>
+        <title> menu</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu-style.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+    <!-- start navbar -->
+    <div class="navbar-left">
+
+        <span class="logo">
+            <i class="fas fa-mug-hot"></i>
+        </span>
+        <div class="navbar-top">
+            <h2 class="h2">easy times</h2>
+            <h3 class="h3">cafe & resturant</h3>
+        </div>
+
+        <div class="divider"></div>
+        <span class="list-mob" onclick="openmenu()">
+            <i class="fa fa-bars"></i>
+        </span>
+        <br>
+        <div class="nav-menu" id="mylinks">
+            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="about-us.html">about us</a>
+            <a class="nav-link" href="menu.html">menu</a>
+            <a class="nav-link" href="contact-us.html">contact us</a>
+            <a class="nav-link" href="reservation.html">reservation</a>
+        </div>
+        <div class="divider"></div>
+        <div class="nav-social">
+
+        </div>
+
+    </div>
+    <!-- end navbar -->
+
+    <!-- start menu -->
+    <div class="menu">
+        <h2>MENU</h2>
+        <h3>EASY TIMES CAFE & RESTAURANT</h3>
+        <div class="parts-menu">
+
+            <ul>
+                <a href="#coffee" onclick='menupage(event,"coffee")'  class="menulink" >
+                    <li>
+                        <p class="icon"> <i class="fas fa-mug-hot"></i></p>
+                        <div class="">
+                            <p class="head">COFFEE</p>
+
+                            <span> COFFEE & CAPPUCCINO</span>
+                        </div>
+                    </li>
+                </a>
+                <a href="#drink" onclick='menupage(event,"drink")' class="menulink">
+                    <li>
+                        <p class="icon"><i class="fas fa-wine-glass-alt"></i></p>
+                        <div class="">
+                            <p class="head">drinks</p>
+
+                            <span> COFFEE & CAPPUCCINO</span>
+                        </div>
+                    </li>
+                </a>
+                <a href="#diner" onclick='menupage(event,"diner")' class="menulink">
+                    <li>
+                        <p class="icon"><i class="fas fa-utensils"></i></p>
+                        <div class="">
+                            <p class="head">diner</p>
+
+                            <span> COFFEE & CAPPUCCINO</span>
+                        </div>
+                    </li>
+                </a>
+                <a href="#toasts" onclick='menupage(event,"toasts")' class="menulink">
+                    <li>
+                        <p class="icon"><i class="fas fa-drumstick-bite"></i></p>
+                        <div class="">
+                            <p class="head">toasts</p>
+
+                            <span> COFFEE & CAPPUCCINO</span>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+    </div>
+    <!-- start menu content -->
+
+    <!-- end menu content -->
+    <div class="menu-contents">
+        <div class="menucontent" id="coffee" style="display: block;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Cappuccino</div>
+                        <div class="description">milk,espresso and foam</div>
+                        <div class="price">66.0</div>
+
+                        <div class="title">Café Latte</div>
+                        <div class="description">one-third espresso, two-thirds heated milk and about of foam.</div>
+                        <div class="price">96.0</div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Caramel Macchiato</div>
+                        <div class="description">vanilla milk mixed with smoky espresso, with
+                            buttery caramel sauce</div>
+                        <div class="price">66.0</div>
+
+                        <div class="title">Caffé Americano</div>
+                        <div class="description">coffee,boiling water,milk and a raw sugar cube</div>
+                        <div class="price">96.0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menucontent" id="drink">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Lemonade
+                        </div>
+                        <div class="description">Lemon / Peach / Mango / Strawberry</div>
+                        <div class="price">25.0</div>
+
+                        <div class="title">iced Tea</div>
+                        <div class="description">Raspberry / Mango / Orange</div>
+                        <div class="price">35.0</div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Sparkling Water</div>
+                        <div class="description">Perrier / San Pellegrino / Schweppes</div>
+                        <div class="price">35.0</div>
+
+                        <div class="title">Fresh Juice</div>
+                        <div class="description">Orange / Apple / Strawberry / Tomato</div>
+                        <div class="price">35.0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menucontent" id="toasts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Tomato Mozarella
+                        </div>
+                        <div class="description">Roasted red peppers / Arugula / Basil / Baguette</div>
+                        <div class="price">25.0</div>
+
+                        <div class="title">Turkey Avocado</div>
+                        <div class="description">Smoked turkey breast / Bacon / Lettuce / Toast
+                        </div>
+                        <div class="price">35.0</div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Chicken Pesto</div>
+                        <div class="description">All-natural chicken / Tomatoes / Arugula / Baguette</div>
+                        <div class="price">35.0</div>
+
+                        <div class="title">Tuna Salad</div>
+                        <div class="description">Lettuce / Tomatoes / Tuna / Grain toast</div>
+                        <div class="price">35.0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menucontent" id="diner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Classic Burger
+                        </div>
+                        <div class="description">Beef / Onions / Hot pepper / Lettuce</div>
+                        <div class="price">25.0</div>
+
+                        <div class="title">Double Burger</div>
+                        <div class="description">Red onions / Minced beef / Black pepper / Cheese</div>
+                        <div class="price">35.0</div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="title">Mexican Burger</div>
+                        <div class="description">Beef / Garlic / Coriander / Cheese / Onion</div>
+                        <div class="price">35.0</div>
+
+                        <div class="title">Chicken Burger</div>
+                        <div class="description">White chicken meat / Breadcrumbs / Onions / Peppers</div>
+                        <div class="price">35.0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end  menu content -->
+    
+    <!-- start free  delivery-->
+    <div class="free-delivery">
+        <h4>Free Delivery</h4>
+        <h2>Sandwich Day</h2>
+        <div class="label-price">
+           <h1>3 <sup>99</sup></h1>
+           <div class="components">
+            <ul>
+                <li>Sandwich</li>
+                <li>Salad</li>
+                <li>Drink</li>
+            </ul>
+        </div>
+        </div>
+       <a href="#">ORDER ONLINR</a>
+    </div>
+    <!-- end free  delivery-->
+
+
+    <!-- start footer -->
+    <div class="footer text-center">
+        <div class="scroll-top">
+            <span><i class="fas fa-angle-up"></i></span>
+        </div>
+        <div class="content">
+            EASY TIME BY TOKA
+        </div>
+        <div class="social">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-google-plus-square"></i></span>
+            <span><i class="fas fa-share-alt-square"></i></span>
+
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>

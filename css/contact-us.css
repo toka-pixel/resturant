@@ -1,0 +1,254 @@
+/* start contact us */
+.contact-us{
+    background: linear-gradient(rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0.29)),url(../images/coffee.jpg) no-repeat top center ;
+   
+    background-size: cover;
+    text-align: center;
+  
+    padding-top: 145px;
+   padding-bottom: 145px;
+}
+.contact-us  h2{
+    margin-top: 0px;
+    font-family: Oswald, sans-serif;
+    font-size: 62px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: white;
+   }
+   .contact-us h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #eda03b;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: 400;
+   }
+/* end contact us */
+
+/* start mail us */
+.mail-us,.book-a-table{
+    padding: 100px 35px;
+    background-color: #faf3eb;
+}
+ .intro-title{
+    margin-bottom: 14px;
+    font-family: Satisfy, sans-serif;
+    color: #eda03b;
+    font-size: 26px;
+    line-height: 20px;
+}
+ h2{
+    margin-top: 0px;
+    font-family: Oswald, sans-serif;
+    font-size: 62px;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+ .divider-line {
+    display: block;
+    width: 40%;
+    height: 1px;
+    margin: 35px 25px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+ input , textarea,select{
+    display: block;
+    width: 100%;
+    height: 54px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    font-family: Merriweather, serif;
+    font-size: 12px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    font-style: italic;
+   
+}
+ input:hover,  textarea:hover ,select:hover{
+    border: 2px solid darkgrey;
+}
+
+ textarea{
+    height: 100px;
+}
+ input[type='submit']{
+    background-color: #2b2825;
+    color: white;
+}
+ input[type='submit']:hover{
+    background-color: #e88f2a;
+    
+}
+ .right{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/6.jpg) no-repeat  center ;
+    background-size: cover;
+   height: 96%;
+}
+ .need-table{
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 300px;
+    letter-spacing: -3px;
+    padding-left: 25px;
+}
+ .reservation{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    line-height: 44px;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+.right a{
+    background-color: #e88f2a;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 4px 25px;
+    border-radius: 3px;
+    font-size: 18px;
+    /* background-color: #2b2825; */
+    transition: background-color 300ms ease, color 300ms ease;
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Merriweather, serif;
+}
+ .right a:hover{
+    background-color: #2b2825;
+}
+@media (max-width:767px){
+    .col-xs-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+}
+/* end mail us */
+
+
+/* ///////////////////////////////////////////////////// */
+/* reservation */
+/* start reservation */
+.reserv{
+    background: linear-gradient(rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0.29)),url(../images/12.jpg) no-repeat top center ;
+   
+    background-size: cover;
+    text-align: center;
+  
+    padding-top: 145px;
+   padding-bottom: 145px;
+}
+.reserv  h2{
+    margin-top: 0px;
+    font-family: Oswald, sans-serif;
+    font-size: 62px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: white;
+   }
+   .reserv h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #eda03b;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: 400;
+   }
+/* end reservation */
+
+ /* //////////////////////////////////////// */
+/* style of plugin fade img */
+
+.slide {
+    width: 100%;
+    height: 382px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide ul {
+    margin: 0 auto;
+    height: 382px;
+  }
+  
+  .slide ul li {
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    height: 382px;
+    background-position: top center;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .slide #dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 30px;
+    z-index: 9999;
+    font-size: 0;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+  .slide #dots a {
+    background: #333;
+    margin: 0 6px;
+    width: 18px;
+    height: 18px;
+    box-shadow: 0 0 1px 0 #333;
+    border-radius: 100%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .slide #dots a.active { background: #FFF; }
+  
+  .slide .arrow {
+    position: absolute;
+    top: 50%;
+    width: 70px;
+    height: 100px;
+    margin-top: -50px;
+    background: #FFF;
+    z-index: 999;
+    opacity: 0.7;
+    line-height: 100px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .slide .arrow.prev { left: 0; }
+  
+  .slide .arrow.next { right: 0; }
+  
+  .slide .arrow:active {
+    background: #FAFAFA;
+    opacity: 1;
+  }
